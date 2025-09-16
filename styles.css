@@ -60,6 +60,7 @@ max-width: 1468px;
 width: 1464px;
 height: 36px;
 background: #f9f0e5;
+margin-bottom: 33px;
 }  
 
 .header-div {
@@ -84,4 +85,12 @@ position: relative;
     margin-left: 10px; 
     margin-right: 10px;
     vertical-align: middle;
+}
+
+/* MAIN */
+
+.container {
+max-width: 1253px;
+margin-left: 96px;
+margin-right: 96px;
 }
