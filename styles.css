@@ -204,3 +204,56 @@ letter-spacing: 0.03em;
 color: #6c6c6c;
 margin-bottom: 17px;
   }
+
+  /* SECTION FOUR */
+
+
+  .four-text {
+font-size: 32px;
+line-height: 1.25;
+letter-spacing: 0.04em;
+text-align: center;
+color: #01005b;
+margin-top: 75px;
+margin-bottom: 46px;
+  }
+
+  .div-opt {
+    display: flex;
+    gap: 41px;
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  .div-opt1 {
+border: 1px solid #ededed;
+border-radius: 8px;
+width: 346px;
+height: 321px;
+background: #f0eeef;
+padding-left: 35px;
+padding-right: 36px;
+  }
+
+  .img-div-opt1 {
+width: 51px;
+height: 51px;
+margin-top: 77px;
+margin-bottom: 16px;
+  }
+
+  .text-viv-opt1 {
+font-size: 22px;
+line-height: 1.81818;
+letter-spacing: 0.04em;
+color: #01005b;
+margin-bottom: 19px;
+  }
+
+  .span-div-opt1 {
+    font-size: 15px;
+    line-height: 1.53333;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #676869;
+  }
