@@ -222,7 +222,7 @@ margin-bottom: 46px;
     display: flex;
     gap: 41px;
     text-align: center;
-    margin-left: 100px;
+
   }
 
   .div-opt1 {
@@ -256,4 +256,38 @@ margin-bottom: 19px;
     letter-spacing: 0.03em;
     text-align: center;
     color: #676869;
+  }
+
+  .div-block1 {
+    width: 369px;
+    height: 56px;
+    border-radius: 5px;
+    background: #01005b;
+    display: flex;             
+    align-items: center;        
+    justify-content: center; 
+    cursor: pointer;
+    margin-top: 56px;
+    display: flex;
+    gap: 10px;
+    margin-left: 542px;
+  }
+
+  .line1 {
+    top: 35px;
+    right: 30px;
+  }
+
+  .div-stars {
+    display: flex;
+    gap: 10px;
+margin-left: 583px;
+margin-top: 10px;
+  }
+
+  .text-starts {
+font-size: 12px;
+line-height: 1.66667;
+letter-spacing: 0.02em;
+color: #828282;
   }
