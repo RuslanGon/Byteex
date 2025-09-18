@@ -321,4 +321,73 @@ margin-bottom: 55px;
   .img-five {
   width: 1465px;
 height: 262px;
+margin-bottom: 75px;
   }
+
+  .div-five1 {
+    height: 252px;
+    background-color: #ebebeb;
+    margin-bottom: 63px;
+  }
+
+  /* SECTION-SIX */
+
+  .section-six {
+    margin-top: 109px;
+  }
+
+  .div-six {
+    display: flex;
+    gap: 88px;
+  }
+
+    .div-six2 {
+      background-image: url('./images/info11.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 430px;
+      height: 645px;
+    }
+
+    .text-six {
+      font-size: 32px;
+      line-height: 1.25;
+      letter-spacing: 0.04em;
+      color: #01005b;
+      margin-bottom: 75px;
+        }
+
+    .hr {
+    stroke-width: 1px;
+    stroke: #eaeaea;
+    margin-bottom: 23px;
+    }
+
+    .div-six-box {
+
+    }
+
+  .div-six-box-text {
+display: flex;
+gap: 562px;
+    }
+
+    .div-six-text {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.33333;
+letter-spacing: 0.04em;
+color: #01005b;
+margin-bottom: 10px;
+    }
+
+    .div-six-text-p {
+font-weight: 400;
+font-size: 15px;
+line-height: 1.46667;
+letter-spacing: 0.03em;
+color: #676869;
+
+    }
+
