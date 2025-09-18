@@ -396,7 +396,19 @@ color: #676869;
       margin-top: 108px;
       height: 246px;
       background-color: #f0eeef;
+    }
+
+    .div-main {
+      display: flex;
       text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .div-seven {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
     }
 
     .saven-text {
@@ -406,5 +418,34 @@ letter-spacing: 0.04em;
 color: #15005b;
 padding-top: 39px;
 margin-bottom: 18px;
+text-align: center;
     }
 
+ .option {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  background-color: #e4e4e4;
+  display: flex;              
+  align-items: center;        
+  justify-content: center;    
+  margin-bottom: 10px;
+ }   
+
+ .saven-p {
+font-weight: 600;
+font-size: 22px;
+line-height: 0.90909;
+letter-spacing: 0.02em;
+color: #15005b;
+margin-bottom: 8px;
+ }
+
+ .saven-spam {
+
+font-size: 14px;
+line-height: 1.42857;
+letter-spacing: 0.03em;
+text-align: center;
+color: #15005b;
+ }
