@@ -388,6 +388,23 @@ font-size: 15px;
 line-height: 1.46667;
 letter-spacing: 0.03em;
 color: #676869;
+    }
 
+    /* SECTION-SAVEN  */
+
+    .section-saven {
+      margin-top: 108px;
+      height: 246px;
+      background-color: #f0eeef;
+      text-align: center;
+    }
+
+    .saven-text {
+font-size: 25px;
+line-height: 1.6;
+letter-spacing: 0.04em;
+color: #15005b;
+padding-top: 39px;
+margin-bottom: 18px;
     }
 
