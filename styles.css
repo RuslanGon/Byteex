@@ -291,3 +291,34 @@ line-height: 1.66667;
 letter-spacing: 0.02em;
 color: #828282;
   }
+
+  /* SECTION-FIVE */
+
+  .section-five {
+    margin-top: 74px;
+    text-align: center;
+  }
+
+  .text-five {
+font-size: 32px;
+line-height: 1.25;
+letter-spacing: 0.04em;
+color: #01005b;
+margin-bottom: 65px;
+  }
+
+  .tex-five {
+font-size: 15px;
+line-height: 1.53333;
+letter-spacing: 0.03em;
+color: #676869;
+width: 620px;
+text-align: center;
+margin: 0 auto;
+margin-bottom: 55px;
+  }
+
+  .img-five {
+  width: 1465px;
+height: 262px;
+  }
