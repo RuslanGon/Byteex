@@ -396,56 +396,74 @@ color: #676869;
       margin-top: 108px;
       height: 246px;
       background-color: #f0eeef;
+    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; /* вертикальное центрирование */
     }
-
+    
     .div-main {
       display: flex;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
+      justify-content: center; /* центрируем блоки по горизонтали */
+      align-items: center;     /* выравнивание блоков по вертикали */
+      gap: 30px;               /* расстояние между блоками с учётом отступов */
     }
-
+    
     .div-seven {
+      width: 257px;           /* фиксированная ширина */
       text-align: center;
-      justify-content: center;
-      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* вертикальное центрирование содержимого */
+      padding: 0 15px;        /* отступ от линии */
+      height: 100%;            /* растягиваем по высоте родителя */
     }
-
+    
+    /* Линии между блоками */
+    .div-seven:not(:last-child) {
+      border-right: 1px solid #ccc; /* цвет линии */
+    }
+    
+    /* Заголовок секции */
     .saven-text {
-font-size: 25px;
-line-height: 1.6;
-letter-spacing: 0.04em;
-color: #15005b;
-padding-top: 39px;
-margin-bottom: 18px;
-text-align: center;
+      font-size: 25px;
+      line-height: 1.6;
+      letter-spacing: 0.04em;
+      color: #15005b;
+      padding-top: 39px;
+      margin-bottom: 18px;
+      text-align: center;
     }
-
- .option {
-  width: 42px;
-  height: 42px;
-  border-radius: 100%;
-  background-color: #e4e4e4;
-  display: flex;              
-  align-items: center;        
-  justify-content: center;    
-  margin-bottom: 10px;
- }   
-
- .saven-p {
-font-weight: 600;
-font-size: 22px;
-line-height: 0.90909;
-letter-spacing: 0.02em;
-color: #15005b;
-margin-bottom: 8px;
- }
-
- .saven-spam {
-
-font-size: 14px;
-line-height: 1.42857;
-letter-spacing: 0.03em;
-text-align: center;
-color: #15005b;
- }
+    
+    /* Круг с иконкой */
+    .option {
+      width: 42px;
+      height: 42px;
+      border-radius: 100%;
+      background-color: #e4e4e4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    
+    /* Основной текст блока */
+    .saven-p {
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 0.90909;
+      letter-spacing: 0.02em;
+      color: #15005b;
+      margin-bottom: 8px;
+    }
+    
+    /* Подпись под текстом */
+    .saven-spam {
+      font-size: 14px;
+      line-height: 1.42857;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: #15005b;
+    }
+    
