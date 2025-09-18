@@ -405,24 +405,26 @@ color: #676869;
     
     .div-main {
       display: flex;
-      justify-content: center; /* центрируем блоки по горизонтали */
-      align-items: center;     /* выравнивание блоков по вертикали */
-      gap: 30px;               /* расстояние между блоками с учётом отступов */
+      justify-content: center;
+      align-items: center;    
+      gap: 30px; 
     }
     
     .div-seven {
-      width: 257px;           /* фиксированная ширина */
+      width: 257px;           
       text-align: center;
       display: flex;
       flex-direction: column;
-      justify-content: center; /* вертикальное центрирование содержимого */
-      padding: 0 15px;        /* отступ от линии */
-      height: 100%;            /* растягиваем по высоте родителя */
+      justify-content: center;
+      padding: 0 15px; 
+      height: 100%;   
+      margin-top: -90px;
     }
     
     /* Линии между блоками */
     .div-seven:not(:last-child) {
-      border-right: 1px solid #ccc; /* цвет линии */
+      border-right: 1px solid rgba(196, 196, 196, 0.5);
+      
     }
     
     /* Заголовок секции */
@@ -438,15 +440,20 @@ color: #676869;
     
     /* Круг с иконкой */
     .option {
-      width: 42px;
-      height: 42px;
-      border-radius: 100%;
-      background-color: #e4e4e4;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 10px;
-    }
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;         
+  background-color: #e4e4e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px auto;    
+  box-sizing: border-box;      
+}
+.option img {
+  width: 60%;   
+  height: auto;
+}
     
     /* Основной текст блока */
     .saven-p {
@@ -466,4 +473,70 @@ color: #676869;
       text-align: center;
       color: #15005b;
     }
-    
+
+    /* SECTION-EIGHT */
+
+    .section-eight {
+      text-align: center;
+      background-color: linear-gradient(180deg, #f9f0e5 0%, rgba(249, 240, 229, 0.18) 43.05%, rgba(249, 240, 229, 0) 100%);;
+    }
+
+    .eight-text {
+font-size: 32px;
+line-height: 1.25;
+letter-spacing: 0.04em;
+color: #01005b;
+margin-top: 84px;
+margin-bottom: 26px;
+    }
+
+  .eight-p {
+font-size: 15px;
+line-height: 1.46667;
+letter-spacing: 0.03em;
+color: #676869;
+margin-bottom: 44px;
+  } 
+  
+  .eight-img {
+  width: 815px;
+height: 372px;
+margin-bottom: 56px;
+  }
+
+  .eight-cosial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    gap: 17px;
+  }
+  
+  .eight-cosial1 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    position: relative;
+    padding-right: 17px; 
+  }
+  
+  .eight-cosial1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3); 
+  }
+
+  .eight-text1 {
+font-size: 10px;
+line-height: 1.7;
+letter-spacing: 0.04em;
+color: #1fad40;
+  }
+ 
+
+
+
