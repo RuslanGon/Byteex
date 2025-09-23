@@ -574,6 +574,16 @@ color: #1fad40;
 height: 33px;
   }
   
+  .div-footer-box:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 32px; 
+    background-color: rgba(86, 86, 86, 0.5);
+    margin-left: 10px; 
+    margin-right: 10px;
+    vertical-align: middle;
+}
 
 
 
