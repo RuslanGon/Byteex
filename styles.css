@@ -538,5 +538,42 @@ color: #1fad40;
   }
  
 
+  /* FOOTER */
+
+ .footer {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  min-height: 200px; 
+  background: linear-gradient(
+    180deg,
+    #f9f0e5 0%,
+    rgba(249, 240, 229, 0.18) 43.05%,
+    rgba(249, 240, 229, 0) 100%
+  );
+}
+
+  .div-footer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+  }
+
+  .div-footer-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+
+  }
+
+  .footer-img {
+    width: 33px;
+height: 33px;
+  }
+  
+
 
 
